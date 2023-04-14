@@ -1,0 +1,61 @@
+.headerWrapper {
+    background-color: #ADB993;
+    height: 3.0rem;
+    display: flex;
+    align-items: left;
+    justify-content:space-evenly;
+    width: 100vw;
+    /* border-bottom: solid 3px #f3ce13ed; */
+    /* position: fixed;
+    margin-bottom: 3.5rem; */
+  }
+  
+  .headerLogo {
+    display: flex;
+    margin: 0.5rem;
+    justify-content: left;
+    font-weight: 500; /* 900*/
+    font: 1.3em/1 Impact, HelveticaNeue-CondensedBold, sans-serif;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0.25em 0.35em;
+    border-radius: 0.15em;
+    background: #949D6A;
+  }
+  
+  .menuButton {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin: 0.5rem;
+    padding: 0.45rem 0.8rem 0.45rem 0.8rem;
+    border-radius: 0.15em;
+    color: #ffffff;
+    font: 14px Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+  }
+  
+  .MuiSvgIcon-root {
+    color: gray;
+    font-size: 0.9rem;
+  }
+  
+  .MuiSvgIcon-root:hover {
+    color: white;
+    transition: color 0.2s;
+  }
+  
+  .menuButton:hover {
+    background-color: #2b2b2b;
+    transition: background-color 0.2s;
+  }
+  
+  .break {
+    width: 0px;
+    height: 1.7rem;
+    border-right: solid gray 0.15rem;
+  }
+ 
