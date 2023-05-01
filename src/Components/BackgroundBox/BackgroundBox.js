@@ -1,13 +1,10 @@
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
 import './BackgroundBox.css';
 
-
-
 function BackgroundBox() {
     return (
-      <div className="background-square">
-        here 
+      <div >
       </div>
     );
   }

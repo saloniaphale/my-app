@@ -1,0 +1,45 @@
+.generate-music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0rem;
+    margin-bottom: 2.0rem;
+    width: 400px;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    border-radius: 5px; /* Add border radius to the select container */
+    text-align: center;
+    border: 1px solid #000;
+  }
+  
+  .select-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    max-height: 200px; /* Increase the max-height of the dropdown list */
+    width: 400px; /* Increase the width of the select container */
+    padding: 1rem; /* Add padding to the select container */
+    background-color: #f2f2f2; /* Add a background color to the select container */
+    border-radius: 5px; /* Add border radius to the select container */
+    align-items: center; /* Add align-items property to center the select container horizontally */
+    justify-content: center; /* Add justify-content property to center the select container vertically */
+  }
+  
+  .select-container select {
+    width: 100%; /* Make the select element full width within the container */
+    border: none; /* Remove border from the select element */
+    background-color: transparent; /* Make the select element background transparent */
+    text-align: center;
+    align-items: center;
+  }
+  
+  
