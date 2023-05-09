@@ -2,19 +2,6 @@
 import React, { useState } from "react";
 import "./GenerateMusic.css";
 
-// function GenerateMusic() {
-//   return (
-//     // <div style={{backgroundColor: 'white', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-//     //   <h1 style={{color: 'blue'}}>Studio Rocks!</h1>
-//     // </div>
-//     // <div className="generateMusicWrapper"> {/* Add className to the top-level div */}
-//     //     <h1 className="generateMusicTitle">Studio Rocks!</h1> {/* Use className to reference styles */}
-//     // </div>
-//     <div className="App-header">
-//     {/* No content, only styles from GenerateMusic.css will be applied */}
-//     </div>
-//   );
-// };
 
 function GenerateMusic() {
     const [textInput1, setTextInput1] = useState("");
